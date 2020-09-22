@@ -1,0 +1,822 @@
+
+html,body{  
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.custom-search-btn{
+        display: flex;
+        background: #f5b042;
+}
+
+.navbar{
+        background: #B2A8B5;  
+}
+
+.navbar-nav .nav-link{
+        color: white;
+        font-weight: bold;
+}
+
+ul > li:hover{
+        color: white;
+        background: #f5b042;
+}
+
+.customSlideView{
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        padding-top: 100px;
+}
+
+.carousel-item img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        
+}
+
+.customArchive{
+        max-width: 100%;
+        height: 550px;
+}
+
+.grid-container{
+     grid-gap: 1px;
+     padding: 1px 1px;
+     height: 90px;
+}
+
+.grid-container img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+}
+
+.customArchive  h2{
+        text-align: center;
+        padding: 20px 10px;
+        color: grey;
+}
+
+.customArchive p{
+        color: grey;
+        text-align: justify;
+        font-size: 14px;
+        padding-left: 5px;
+
+}
+
+.customArchive > div > .imagecontainer{
+        max-width: 100%;
+        height: 450px;
+        margin-left: 12px;
+        margin-right: 8px;
+        margin-top: 5px;
+        margin-left: 40px;
+        margin-right: 20px;
+}
+
+.customArchive .grid-container img:hover{
+        transform: scale(1.3);
+}
+.mainImage > img{
+        width: 100%;
+        height:445px;
+        object-fit: cover;
+}
+
+.cardContainer{
+        margin-right: -15px;
+        margin-left: 0px;
+        height: auto;
+        background: rgb(225, 228, 233);
+}
+
+.cardContainer > h2{
+        text-align: center;
+        padding: 20px 0;
+        color: grey;
+}
+
+.cardContainer h6{
+        text-align: center;
+        cursor: pointer;
+}
+
+.cardContainer img:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        transform:scale(1.3);
+}
+
+.customFooter{
+        max-width: 100%;
+        height: 350px;
+        background: #33312F;
+        margin-right: -15px;
+
+}
+
+.customFooter h6{
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        cursor: pointer;
+        padding: 5px 40px;
+}
+
+.footerRow{
+        width: auto;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        
+
+}
+
+.socialBlock{
+        color: white;
+        padding-top: 20px;
+}
+
+.socialBlock .social{
+        cursor: pointer;
+        align-content: center;
+        margin: auto;
+        width: 15%;
+}
+
+.arrowUp{
+        position: relative;
+}
+
+.arrowUp i{
+        color: white;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+}
+
+.arrowUp i:hover{
+        color: #B2A8B5;
+}
+
+div .profileImg{
+        width: 80%;
+        height: 240px;
+        margin-left: auto;
+        margin-top: 150px;
+        cursor: pointer;
+        
+}
+
+/*div .profileImg img{
+        width: 80%;
+        height: 92%;
+        
+}*/
+
+div .profileImg img:hover{
+        transform: scale(1.3);
+        opacity: 0.8;
+        
+}
+
+.profile .profileName{
+    padding-left: 130px;  
+}
+
+.profile .profileTitle{
+        padding-left: 100px;
+}
+
+.profileSummary{
+        margin-top: 150px;
+}
+
+.profileSummary p{
+        text-align: justify;
+        padding-right: 20px;
+}
+
+.devis{
+        background-color: rgb(236, 236, 236);
+}
+
+.devis button{
+        background: #d39025;
+        color: white;
+        padding: 5px 5px;
+}
+
+.imageBook{
+        padding: 0px 0px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+}
+
+.imageBook .imageBook-1{
+        width: 25%;
+        height: 300px;
+        cursor: pointer;
+        position: relative;
+        filter: brightness(50%);
+}
+.imageBook .imageBook-2{
+        width: 25%;
+        height: 300px;
+        cursor: pointer;
+        position: relative;
+        filter: brightness(50%);
+}
+.imageBook .imageBook-3{
+        width: 25%;
+        height: 300px;
+        cursor: pointer;
+        position: relative;
+        filter: brightness(50%);
+}
+.imageBook .imageBook-4{
+        width: 25%;
+        height: 300px;
+        cursor: pointer;
+        position: relative;
+        filter: brightness(50%);
+}
+
+.imageBook .imageBook-1 .center1{
+        position: absolute;
+        top: 50%;
+        color:#FFFFFF;
+        font-size: 22px;
+        font-weight: bold;
+/* Try*/
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+        color: #ffffff;       
+}
+
+.imageBook .imageBook-2 .center2{
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        /* Try*/
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+        color: #ffffff; 
+
+}
+
+.imageBook .imageBook-3 .center3{
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        /* Try*/
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+        color: #ffffff; 
+
+}
+
+.imageBook .imageBook-4 .center4{
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        /* Try*/
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+        color: #ffffff; 
+}
+
+.imageBook .imageBook-1:hover{
+        width: 100%;
+        filter: brightness(100%);
+}
+
+.imageBook .imageBook-2:hover{
+        width: 100%;
+        filter: brightness(100%);
+}
+
+.imageBook .imageBook-3:hover{
+        width: 100%;
+        filter: brightness(100%);
+}
+
+.imageBook .imageBook-4:hover{
+        width: 100%;
+        filter: brightness(100%);
+}
+
+.activity{
+        margin-top: 105px;
+
+}
+
+.activity .activity-left{
+        border-style: none;
+        padding-top: 20px;
+        text-align: justify;
+        background-color: rgb(247, 247, 247);
+}
+
+.activity-right{
+        margin-right: -80px;
+}
+
+
+.activity-right .demolotion{
+        width: auto;
+        padding: 0px 20px;
+        margin: 20px 10px;
+}
+
+.activity-right .demolotion .iconMinus-demolotion{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-maconnerie{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-electricity{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-plomberie{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-isolation{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-carrlage{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-menuiserie{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-revetement{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-parquet{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-peinture{
+        display: none;
+}
+
+.activity-right .demolotion .iconMinus-ravalement{
+        display: none;
+}
+
+.displayiconPlus{
+        display: block;
+}
+
+.displayiconMinus{
+        display: block;
+}
+
+.hideiconPlus{
+        display: none;
+}
+
+.hideiconMinus{
+        display: none;
+}
+
+.activity-right .demolotion > .d-flex{
+        border: solid gray;
+        height: 40px;
+        padding-left: 5px;
+        padding-top: 5px;
+}
+.activity-right .demolotion i{
+        font-size: 20px;
+        font-size: bold;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .demolition-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .demolition-detail .demolition-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .demolition-detail .demolition-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+
+}
+
+.activity-right .demolotion .maconnerie-detail .maconnerie-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .maconnerie-detail .maconnerie-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+
+}
+
+.activity-right .demolotion .electricity-detail .electricity-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .electricity-detail .electricity-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+
+}
+
+.activity-right .demolotion .plomberie-detail .plomberie-image-container{
+        display: flex;
+        overflow: hidden;
+}
+
+.activity-right .demolotion .plomberie-detail .plomberie-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+
+}
+
+.activity-right .demolotion .isolation-detail .isolation-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .isolation-detail .isolation-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+
+}
+
+.activity-right .demolotion .carrlage-detail .carrlage-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .carrlage-detail .carrlage-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .menuiserie-detail .menuiserie-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .menuiserie-detail .menuiserie-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .revetement-detail .revetement-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .revetement-detail .revetement-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .parquet-detail .parquet-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .parquet-detail .parquet-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .peinture-detail .peinture-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .peinture-detail .peinture-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right .demolotion .ravalement-detail .ravalement-image-container{
+        display: flex;
+}
+
+.activity-right .demolotion .ravalement-detail .ravalement-image-container .image{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+}
+
+.activity-right p{
+        margin-top: 10px;
+}
+
+.activity-right .demolotion .maconnerie-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .electricity-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .plomberie-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .isolation-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .carrlage-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .menuiserie-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .revetement-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .parquet-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .peinture-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .demolotion .ravalement-detail {
+        border: solid gray;
+        display: none;
+}
+
+.activity-right .upframe{
+        color: white;
+        background-color: rgb(95, 85, 85);
+}
+
+.realisations{
+       width: auto;
+        margin-top: 150px;
+        border: solid red;
+        margin-left: 0;
+}
+
+.realisations .btnRow{
+   justify-content: center;     
+}
+
+.realisations .tout{
+        height: 50px;
+        padding-top: 10px;
+        background: #d39025;
+        color: white;
+}
+
+.realisations .office{
+        height: 50px;
+        padding-top: 10px;
+        background: #d39025;
+        color: white;
+        text-align: center;
+}
+
+.realisations .shop{
+        height: 50px;
+        padding-top: 10px;
+        background: #d39025;
+        color: white;
+        text-align: center;
+}
+
+.realisations .building{
+        height: 50px;
+        padding-top: 10px;
+        background: #d39025;
+        color: white;
+        text-align: center;
+}
+
+.realisations .realisation-start{
+        margin-left: ;
+}
+
+.realisations .realisation-link{
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 0;
+        width: 20%;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+
+.realisations .realisation-link:hover img{
+        transform: scale(1.1);
+        opacity: 1;
+}
+.realisations .realisation-link img{
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        
+}
+
+ .realisations .realisation-start .realisation-link .hideRef{
+        display: none;
+        color: black;
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bold;
+}  
+
+.realisations .realisation-start .realisation-link img:hover + .hideRef{
+        display: block;
+        
+}
+
+@media only screen and (min-width:1400px){
+        .footerRow h6{
+        padding: 10px 50px;
+        justify-content: startend;
+}
+
+.profile .profileName{
+        padding-left: 210px;
+
+}
+
+.profile .profileTitle{
+        padding-left: 180px;
+}
+
+
+
+.activity .activity-right{
+        margin-right: 5px;
+}
+
+.customFooter{
+        max-width: 110%;
+        height: 500px;
+        background: #33312F;
+        margin-right: -15px;
+
+}
+           
+   }
+
+  @media only screen and (max-width:1200px){
+         
+        .footerRow h6{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                justify-content: startend;
+        }
+   }
+
+@media only screen and (max-width:768px){
+         ul > li > a {
+                color:grey;
+                
+        }
+        
+        nav > button{
+                
+                background-color: #ddd; 
+                
+        }
+        
+        .grouplistview{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            
+    }
+
+    .grouplistitem{
+            border: 1px solid #ddd;
+            margin-top: -1px; /* Prevent double borders */
+            background-color: #f6f6f6;
+            padding: 12px;
+            
+    }
+
+    .profile .profileName{
+        padding-left: 250px;
+}
+
+.profile .profileTitle{
+        padding-left: 220px;
+}
+
+.profile .profileSummary{
+        margin-top: 30px;
+}
+.profile .profileSummary h4{
+        padding-left: 200px;
+}
+.profile .profileSummary p{
+    padding-left: 20px;
+}
+.activity .activity-left p{
+        font-size: 12px;
+        text-align: left;
+}
+.activity-right{
+        margin-left: -50px;
+        padding-left: -20px;
+    }
+
+
+
+@media only screen and (max-width:576px){
+    .grouplistview{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            
+    }
+
+    .grouplistitem{
+            border: 1px solid #ddd;
+            margin-top: -1px; /* Prevent double borders */
+            background-color: #f6f6f6;
+            padding: 12px;
+            
+    }
+
+    .profile .profileName{
+            padding-left: 220px;
+    }
+
+    .profile .profileTitle{
+            padding-left: 190px;
+    }
+
+    .profile .profileSummary{
+            margin-top: 30px;
+    }
+    .profile .profileSummary h4{
+            padding-left: 160px;
+    }
+    .profile .profileSummary p{
+        padding-left: 20px;
+        }
+
+    .activity-right{
+            margin-left: -50px;
+            padding-left: -20px;
+        }
+
+}
+
+
+

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body>
+    <!-----------X-------------Nav-Bar------------------X------------>
+    <nav class="navbar navbar-expand-md navbar-light border border-bottom-light fixed-top">
+        <a class="navbar-brand" href="#"><img class="w-50 h-50" loading="lazy" src="./images/brand.png" alt="brand"></a>
+        <span class="nav-item ml-auto pr-3 d-md-none " id="popoverU">
+            <i class="fa fa-search pt-3 pl-1" role="button"></i>
+        </span>
+        <div id="myFormU" class="d-none">
+            <div class="custom-search-btn">
+                <input type="email" name="email" id="email" autofocus="autofocus" class="form-control input-md"
+                    placeholder="Rechercher">
+                <button type="submit" style="background-color: #f5b042; border: none; padding-left: 10px;"><i
+                        class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarId">
+            <ul class="navbar-nav ml-auto grouplistview">
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./about.html">Qui sommes nous?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="#">Nos activités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./realisations.html">Nos réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="#">Contact</a>
+                </li>
+                <span class="nav-item d-none d-md-block" id="popover">
+                    <i class="fa fa-search pt-3 pl-1" role="button"></i>
+                </span>
+                <div id="myForm" class="d-none">
+                    <div class="custom-search-btn">
+                        <input type="email" name="email" id="email" autofocus="autofocus" class="form-control input-md"
+                            placeholder="Rechercher">
+                        <button type="submit" style="background-color: #f5b042; border: none; padding-left: 10px;"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-----------X-------------Nav-Bar------------------X------------>
+    <!------------------------Activity Section------------------------------>
+    <div class="container-fluid">
+        <div class="row w-100 activity">
+            <div class="col-lg-4 col-md-3 col-xl-12 pl-0 activity-left">
+                <h5>Nos Activités</h5>
+                <p>
+                    Nous prendrons en charge l’ensemble des travaux de votre maison, appartement ou tout autre local de
+                    la démolition à la finition.
+                    Nos professionnels interviennent dans le domaine de la maçonnerie, électricité, plomberie,
+                    plâtrerie, carrelage, isolation (extérieure et intérieure) et revêtements de sol et murs (parquet,
+                    moquette, peinture, stucco).
+
+                    Nous assurons également les travaux de menuiserie extérieure (fenêtres, portes,..) ainsi que la pose
+                    des meubles de votre cuisine, de votre salle de bain ou de votre dressing.
+
+                    Vous aurez un interlocuteur unique qui assurera le suivi de votre chantier, du démarrage des travaux
+                    à la réception. Il saura vous conseiller tant sur l’aspect technique qu’esthétique.
+
+                    Cette coordination de l’ensemble des corps de métiers vous permettra de gagner du temps sur la durée
+                    totale de votre chantier.
+
+                    Des conseils vous seront prodigués afin de bénéficier des avantages fiscaux pour vos travaux.
+
+                    Nous pouvons, par ailleurs, vous proposez un accompagnement avec des architectes et consultants
+                    expérimentés pour élaborer vos projets et permis de construction.
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-9 col-xl-12 ">
+                <div class="activity-right">
+                    <div class="demolotion ">
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-demolotion" id="id-demolotion-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-demolotion" id="id-demolotion-minus"></i>
+                            <h6>Démolition</h6>
+                        </div>
+                        <div class="demolition-detail">
+                            <div class="demolition-image-container">
+                                <div class="image">
+                                    <img src="./images/demolition_images/Démolition-1-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+
+                                <div class="image">
+                                    <img src="./images/demolition_images/Démolition-2-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/demolition_images/Démolition-3-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nous assurons les travaux de démolition et d’ouverture des murs porteurs ainsi que leur
+                                renforcement (poutres métalliques type IPN, HEB,…). Nous intervenons également pour tout
+                                autre type de démolition intérieure et extérieure et curage de plateau.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-maconnerie" id="id-maconnerie-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-maconnerie" id="id-maconnerie-minus"></i>
+                            <h6>Maconnerie</h6>
+                        </div>
+                        <div class="maconnerie-detail">
+                            <div class="maconnerie-image-container">
+                                <div class="image">
+                                    <img src="./images/maconnerie_images/maconnerie_images.-1.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/maconnerie_images/maconnerie_images.-2.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/maconnerie_images/maconnerie_images.-3.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/maconnerie_images/maconnerie_images.-4.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/maconnerie_images/maconnerie_images.-5.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nos professionnels répondent à vos exigences aussi bien pour les travaux de petite
+                                maçonnerie (reprise de murs, de clôtures, de linteaux, création de poteaux, chapes…)
+                                que
+                                pour les travaux de gros œuvre (construction et extension de maisons individuelles,
+                                des
+                                fondations aux enduits ciments et reprise en sous-œuvre).
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-electricity" id="id-electricity-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-electricity" id="id-electricity-minus"></i>
+                            <h6>Electricité - Réseaux</h6>
+                        </div>
+                        <div class="electricity-detail">
+                            <div class="electricity-image-container">
+                                <div class="image">
+                                    <img src="./images/electricity_images/Elec-reaseau-3-120x120-1.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+
+                                <div class="image">
+                                    <img src="./images/electricity_images/Elec-reaseau-3-120x120-2.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/electricity_images/Elec-reaseau-3-120x120-3.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nous nous occupons de toute l’installation électrique de votre domicile que ce soit en
+                                installation neuve ou en rénovation. Nous maitrisons l’ensemble des nouvelles
+                                technologies en la matière telles que les réseaux ADSL (RJ45), système de
+                                vidéosurveillance et interphone.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-plomberie" id="id-plomberie-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-plomberie" id="id-plomberie-minus"></i>
+                            <h6>Plomberie</h6>
+                        </div>
+
+                        <div class="plomberie-detail">
+                            <div class="plomberie-image-container">
+                                <div class="image">
+                                    <img src="./images/plomberie_images/Plomberie-1.jpg"
+                                        style="object-fit: cover; width: 120px; height:120px;" class="img-thumbnail"
+                                        alt="">
+                                </div>
+
+                                <div class="image">
+                                    <img src="./images/plomberie_images/Plomberie-2.jpg" class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nos professionnels répondent à vos exigences aussi bien pour les travaux de petite
+                                maçonnerie (reprise de murs, de clôtures, de linteaux, création de poteaux, chapes…)
+                                que
+                                pour les travaux de gros œuvre (construction et extension de maisons individuelles,
+                                des
+                                fondations aux enduits ciments et reprise en sous-œuvre).
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-isolation" id="id-isolation-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-isolation" id="id-isolation-minus"></i>
+                            <h6>Isolation</h6>
+                        </div>
+
+                        <div class="isolation-detail">
+                            <div class="isolation-image-container">
+                                <div class="image">
+                                    <img src="./images/isolation_images/isolation_images-1.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/isolation_images/isolation_images-2.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/isolation_images/isolation_images-3.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/isolation_images/isolation_images-4.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/isolation_images/isolation_images-5.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nous assurons l’aménagement de vos pièces à vivre et vos combles par la mise en place de
+                                cloisons et doublage.
+
+                                Nos plaquistes réaliseront pour vous toutes les tendances en matière de forme
+                                (plafonds ronds, arche, cloisons arrondies ….)
+
+                                Notre maîtrise des normes environnementales vous permettra de réaliser des économies
+                                d’énergie grâce à une isolation optimale et un confort acoustique et thermique au sein
+                                de votre habitation.
+
+                                www.ademe.fr
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-carrlage" id="id-carrlage-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-carrlage" id="id-carrlage-minus"></i>
+                            <h6>Carrlage</h6>
+                        </div>
+
+                        <div class="carrlage-detail">
+                            <div class="carrlage-image-container">
+                                <div class="image">
+                                    <img src="./images/carrlage_images/Carrelage-1.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/carrlage_images/Carrelage-2.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/carrlage_images/Carrelage-3.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/carrlage_images/Carrelage-4.jpg" class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nous vous conseillerons dans les choix des carrelages, faïence, mosaïque, marbre, granit
+                                et fresques pour rendre votre intérieur unique.
+
+                                Nos poseurs réaliseront un calepinage minutieux pour illuminer vos pièces.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-menuiserie" id="id-menuiserie-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-menuiserie" id="id-menuiserie-minus"></i>
+                            <h6>Menuiserie</h6>
+                        </div>
+
+                        <div class="menuiserie-detail">
+                            <div class="menuiserie-image-container">
+                                <div class="image">
+                                    <img src="./images/menuiserie_images/Menuiserie-1.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/menuiserie_images/Menuiserie-2.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/menuiserie_images/Menuiserie-2.jpg" class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/menuiserie_images/Menuiserie-4.jpg" class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nos menuisiers s’occupent de la pose en logement neuf ou lors de rénovations des
+                                boiseries (portes intérieures, portes de garage, fenêtres, clôtures,…). Ils réalisent
+                                également pour vous l’agencement de petites menuiseries selon vos envies.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-revetement" id="id-revetement-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-revetement" id="id-revetement-minus"></i>
+                            <h6>Revetement</h6>
+                        </div>
+
+                        <div class="revetement-detail">
+                            <div class="revetement-image-container">
+                                <div class="image">
+                                    <img src="./images/revetement_images/Revêtement-Sol-souple-1-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/revetement_images/Revêtement-Sol-souple-2-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/revetement_images/Revêtement-Sol-souple-3-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/revetement_images/Revêtement-Sol-souple-4-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/revetement_images/Revêtement-Sol-souple-5-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nos équipes se chargent de la préparation du support (primaire d’accrochage, ragréage
+                                adapté et ponçage) et de la pose de revêtements souples tels que lames PVC, moquette et
+                                lino (dalles ou rouleau) de la chambre au plateau de plusieurs milliers de m².
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-parquet" id="id-parquet-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-parquet" id="id-parquet-minus"></i>
+                            <h6>Parquet</h6>
+                        </div>
+
+                        <div class="parquet-detail">
+                            <div class="parquet-image-container">
+                                <div class="image">
+                                    <img src="./images/parquet_images/Parquet-1-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/parquet_images/Parquet-2-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/parquet_images/Parquet-3-120x120.jpg" class="img-thumbnail"
+                                        alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Nous disposons d’une équipe spécialisée en pose et entretien de parquet neuf et ancien.
+                                Elle rendra votre intérieur lumineux grâce aux travaux de ponçage minutieux. Nos
+                                fournisseurs mettent à votre disposition des parquets de haute qualité en bois massif et
+                                stratifié.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-peinture" id="id-peinture-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-peinture" id="id-peinture-minus"></i>
+                            <h6>Peinture</h6>
+                        </div>
+
+                        <div class="peinture-detail">
+                            <div class="peinture-image-container" style="display: flex; flex-wrap: wrap;">
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-1-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-2-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-3-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-4-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-5-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-6-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-7-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-8-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-9-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-12-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-13-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/peinture_images/Peinture-Décoration-1-120x120.jpg"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Un travail soigneux réalisé par nos peintres rendra vos murs et plafonds étincelants.
+
+                                Nos conseillers en décoration vous aideront dans le choix de couleurs et matières afin
+                                qu’il se rapproche le plus possible de vos envies.
+                            </p>
+                        </div>
+
+                        <div class="d-flex upframe">
+                            <i class="far fa-plus-square mr-2 iconPlus-ravalement" id="id-ravalement-plus"></i>
+                            <i class="far fa-minus-square mr-2 iconMinus-ravalement" id="id-ravalement-minus"></i>
+                            <h6>Ravalement</h6>
+                        </div>
+
+                        <div class="ravalement-detail">
+                            <div class="ravalement-image-container">
+                                <div class="image">
+                                    <img src="./images/ravalement_images/Isolation-Exterieur-1-120x120.png"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                                <div class="image">
+                                    <img src="./images/ravalement_images/Isolation-Exterieur-2-120x120.png"
+                                        class="img-thumbnail" alt="">
+                                </div>
+                            </div>
+                            <p>
+                                Notre équipe spécialisée ddans les travaux d’isolation thermiques extérieurs vous
+                                permettra de réaliser des économies d’énergie jusqu’à 50%, d’améliorer le confort de
+                                votre habitat, de rénover et protéger votre façade même déjà isolée.
+
+                                Nos conseillers peuvent également vous informer sur certaines aides à la rénovation
+                                (prêt à taux zéro, crédit d’impôt …).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-----------X-------------Activity Section------------------X------------>
+
+
+    <!------------------------Footer------------------------------>
+    <footer class="container ml-0 h-auto customFooter">
+        <div class="footerRow">
+            <h6>Accueil</h6>
+            <h6>Qui sommes nous?</h6>
+            <h6>Nos activités</h6>
+            <h6>Nos réalisations</h6>
+            <h6>Contact</h6>
+
+        </div>
+        <div class="arrowUp">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+        <div class="socialBlock">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <div>
+            <i class="far fa-copyright" style="color: rgb(182, 173, 173);font-size: smaller;">Copyright 2019 All
+                rights
+                reserved</i>
+        </div>
+
+
+    </footer>
+
+    <!----------------X--------Footer------------------X------------>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+</body>
+
+</html>

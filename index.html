@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border border-bottom-light fixed-top">
+        <a class="navbar-brand" href="#"><img class="w-50 h-50" loading="lazy" src="./images/brand.png" alt="brand"></a>
+        <span class="nav-item ml-auto pr-3 d-md-none " id="popoverU">
+            <i class="fa fa-search pt-3 pl-1" role="button"></i>
+        </span>
+        <div id="myFormU" class="d-none">
+            <div class="custom-search-btn">
+                <input type="email" name="email" id="email" autofocus="autofocus" class="form-control input-md"
+                    placeholder="Rechercher">
+                <button type="submit" style="background-color: #f5b042; border: none; padding-left: 10px;"><i
+                        class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarId">
+            <ul class="navbar-nav ml-auto grouplistview">
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./about.html">Qui sommes nous?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="./activities.html">Nos activités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="#">Nos réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link grouplistitem" href="#">Contact</a>
+                </li>
+                <span class="nav-item d-none d-md-block" id="popover">
+                    <i class="fa fa-search pt-3 pl-1" role="button"></i>
+                </span>
+                <div id="myForm" class="d-none">
+                    <div class="custom-search-btn">
+                        <input type="email" name="email" id="email" autofocus="autofocus" class="form-control input-md"
+                            placeholder="Rechercher">
+                        <button type="submit" style="background-color: #f5b042; border: none; padding-left: 10px;"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-------------------------Carousel------------------------------->
+    <div class="customSlideView">
+        <section class="w-100 h-25">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/interior-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-4.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-5.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-6.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-7.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-8.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-9.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/interior-10.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+    <!---------------X----------Carousel-----------------X------------->
+
+    <!-------------------------Archive------------------------------>
+    <div class="row customArchive">
+        <div class="col-md-6 h-100 w-100 ">
+            <div class="row imagecontainer" data-aos="zoom-in-up">
+                <div class="mainImage">
+                    <img src="./images/interior-1.jpg" class="img-thumbnail image-responsive" id="archImage"
+                        alt="main-image">
+                </div>
+            </div>
+            <div class="row ml-0 grid-container">
+                <div class="col"><img src="./images/interior-2.jpg" class="image-responsive img-thumbnail" id="img-2"
+                        alt=""></div>
+                <div class="col"><img src="./images/interior-3.jpg" class="image-responsive img-thumbnail" id="img-3"
+                        alt=""></div>
+                <div class="col"><img src="./images/interior-4.jpg" class="image-responsive img-thumbnail" id="img-4"
+                        alt=""></div>
+                <div class="col"><img src="./images/interior-5.jpg" class="image-responsive img-thumbnail" id="img-5"
+                        alt=""></div>
+                <div class="col"><img src="./images/interior-6.jpg" class="image-responsive img-thumbnail" id="img-6"
+                        alt=""></div>
+                <div class="col"><img src="./images/interior-7.jpg" class="image-responsive img-thumbnail" id="img-7"
+                        alt=""></div>
+            </div>
+        </div>
+        <div class="col-md-6 intro">
+
+            <h2>AC GROUPE RENOVATION</h2>
+
+
+            <p>
+                Spécialisée dans la rénovation depuis 5 ans, AC GROUPE vous propose un service et un savoir-faire
+                unique
+                afin de répondre au mieux à vos besoins. De part la qualité de notre équipe et son implication, nous
+                sommes en mesure de vous proposer tous types de travaux de rénovation, en respectant les
+                fondamentaux de
+                la gestion de projet (temps, coût et qualité). Nous sommes parfaitement conscient de l’individualité
+                de
+                chaque projet et nous mettons en œuvre une organisation structurée et rigoureuse afin que chaque
+                détail
+                soit planifié et respecté.Spécialisée dans la rénovation depuis 5 ans, AC GROUPE vous propose un
+                service
+                et un savoir-faire unique
+                afin de répondre au mieux à vos besoins. De part la qualité de notre équipe et son implication, nous
+                sommes en mesure de vous proposer tous types de travaux de rénovation, en respectant les
+                fondamentaux de
+                la gestion de projet (temps, coût et qualité). Nous sommes parfaitement conscient de l’individualité
+                de
+                chaque projet et nous mettons en œuvre une organisation structurée et rigoureuse afin que chaque
+                détail
+                soit planifié et respecté
+            </p>
+
+
+        </div>
+
+        <div class="container-fluid ml-4 cardContainer">
+            <h2>NOS REALISATIONS</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/la-garenne-colombes-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Appartement</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/interior-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Villa</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/interior-4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Co-Working</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/interior-5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Palace</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------X---------Cards-----------------X------------->
+
+        <!------------------------Footer------------------------------>
+        <footer class="container h-auto customFooter">
+            <div class="footerRow">
+                <h6>Accueil</h6>
+                <h6>Qui sommes nous?</h6>
+                <h6>Nos activités</h6>
+                <h6>Nos réalisations</h6>
+                <h6>Contact</h6>
+
+            </div>
+            <div class="arrowUp">
+                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            </div>
+            <div class="socialBlock">
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div>
+                <i class="far fa-copyright" style="color: rgb(182, 173, 173);font-size: smaller;">Copyright 2019 All
+                    rights
+                    reserved</i>
+            </div>
+
+
+        </footer>
+
+        <!----------------X--------Footer------------------X------------>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/aos.js"></script>
+</body>
+
+</html>
